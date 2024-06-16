@@ -1,0 +1,60 @@
+html {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("https://asset-2.tstatic.net/jogja/foto/bank/images/contoh-ucapan-selamat-ulang-tahun.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: brown;
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  text-shadow: 1px 1px 5px #000;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px #000;
+}
+
+a {
+  color: #fff;
+}
+
+#countdown {
+  max-width: 600px;
+}
+
+#countdown ul {
+  margin: 5% 0 0 0;
+  padding: 0;
+  display: flex;
+  gap: 5%;
+}
+
+#countdown ul li {
+  flex: 25%;
+  padding: 5%;
+  margin: 0;
+  list-style: none;
+  background: #c29e68;
+  border-radius: 5px;
+}
+
+#countdown ul li span {
+  display: block;
+  font-size: 3rem;
+}
